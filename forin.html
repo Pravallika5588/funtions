@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("tsk-1")
+        var reverse="hello"
+        sum="";
+        for(i=reverse.length-1;i>=0;i--){
+            console.log(reverse[i]);
+            sum+=reverse[i]
+        }
+        console.log(sum);
+
+
+        console.log("task-2");
+        var numbers=[23,54,67,64,46,95,98]
+         even=0;
+         odd=0;
+         for(i=0;i<=numbers.length-1;i++){
+             if (numbers[i]%2==0) {
+                 console.log("even",numbers[i]);
+                 
+                 even+=numbers[i]
+                 
+                 
+                }
+                else{
+                console.log("odd",numbers[i]);
+                odd+=numbers[i]
+            }
+            
+            
+        }
+        console.log( "sum of even",even);
+        console.log("sum of odd",odd);
+
+
+        console.log("task-3");
+
+        var obj={
+            name:"allu arjun",
+            movie:"pushpa2"
+        }
+            for(var [keys,values] of Object.entries(obj)){
+                console.log("key =",keys," ","value =",values);
+                
+            }
+        
+
+        
+        
+        
+            </script>
+</body>
+</html>
